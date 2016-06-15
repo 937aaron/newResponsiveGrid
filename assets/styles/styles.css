@@ -1,0 +1,106 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Cormorant Infant', serif; }
+
+.wrapper {
+  max-width: 1120px;
+  margin-left: auto;
+  margin-right: auto; }
+  .wrapper:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+.pane {
+  width: 32.20339%;
+  float: left;
+  margin-right: 1.69492%;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  color: #c5c5c5;
+  background-color: #ce1a23;
+  border: 1px solid black;
+  height: 20em; }
+  @media (max-width: 1000px) and (min-width: 500px) {
+    .pane {
+      width: 49.15254%;
+      float: left;
+      margin-right: 1.69492%;
+      margin: -1px; } }
+  @media (max-width: 499px) {
+    .pane {
+      width: 100%;
+      float: left;
+      margin-left: 0;
+      margin-right: 0; } }
+  .pane .paneContent {
+    padding-top: 2em;
+    text-align: center;
+    line-height: 1em;
+    font-size: 1.9em;
+    font-weight: 700; }
+
+.fa {
+  text-align: center;
+  display: none;
+  padding-top: 1.75em; }
+
+.pane:hover {
+  background-color: #c5c5c5;
+  color: #ce1a23; }
+  .pane:hover .fa {
+    display: block; }
+
+/*# sourceMappingURL=styles.css.map */

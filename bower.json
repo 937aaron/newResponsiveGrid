@@ -1,0 +1,21 @@
+{
+  "name": "newResponsiveGrid",
+  "homepage": "937aaron.github.io/newResponsiveGrid",
+  "authors": [
+    "Aaron <newcomer.aaron@icloud.com>"
+  ],
+  "description": "Make that Grid respond!",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.0.0",
+    "susy": "^2.2.12"
+  }
+}
