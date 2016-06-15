@@ -98,7 +98,6 @@ $susy: (
     line-height: 1em;
     font: {
       size: 1.9em;
-      weight: 700;
     }
 
   }
@@ -111,6 +110,15 @@ $susy: (
 .pane:hover {
   background-color: $grey;
   color:$darkred;
+  .paneContent {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+    padding-bottom: 1em;
+    border-bottom: 4px solid $darkred;
+    padding-top: 1.5em;
+  }
   .fa{
     display: block;
   }
