@@ -73,13 +73,13 @@ body {
   background-color: #ce1a23;
   border: 1px solid black;
   height: 20em; }
-  @media (max-width: 1000px) and (min-width: 500px) {
+  @media (max-width: 1000px) and (min-width: 701px) {
     .pane {
       width: 49.15254%;
       float: left;
       margin-right: 1.69492%;
       margin: -1px; } }
-  @media (max-width: 499px) {
+  @media (max-width: 700px) {
     .pane {
       width: 100%;
       float: left;

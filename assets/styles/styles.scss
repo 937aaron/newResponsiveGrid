@@ -62,8 +62,8 @@ $susy: (
 
   global-box-sizing: border-box
 
-);
- @include border-box-sizing;
+);                                     //line 58 - 65 inspired by css-tricks. not sure what 63 does? but understand the rest.
+ @include border-box-sizing;           //https://css-tricks.com/build-web-layouts-easily-susy/
 
  body {
    font-family: 'Cormorant Infant', serif;
@@ -85,11 +85,11 @@ $susy: (
   border:$border;
   height: 20em;
 
-  @media (max-width: 1000px) and (min-width:500px) {
+  @media (max-width: 1000px) and (min-width:701px) {
     @include span(6);
     margin: -1px;
   }
-  @media (max-width:499px) {
+  @media (max-width:700px) {
     @include span(12);
   }
   .paneContent{
